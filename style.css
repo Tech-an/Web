@@ -18,7 +18,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* -------------------------------------------------------------- */
 
 body {
-color:#555;
+color:rgb(214, 101, 8);
 font-size:small;
 font-family:verdana,"ヒラギノ丸ゴ ProN W4","Hiragino Maru Gothic ProN","メイリオ","Meiryo","ＭＳ Ｐゴシック","MS PGothic",Sans-Serif;
 line-height:1.5;
@@ -108,7 +108,7 @@ position:relative;
 line-height:0;
 border-top:2px solid #ebebeb;
 border-bottom:2px solid #ebebeb;
-text-align:center;
+text-align:right;
 }
 
 #mainBanner img{
@@ -381,7 +381,7 @@ color:#555;
 	text-align: center;
 	_float:left;
 	font-size:13px;
-	width:160px;
+	width:200px;
 	padding:20px 0;
   border-top:2px solid #ebebeb;
 	border-bottom:2px solid #ebebeb;
@@ -610,4 +610,21 @@ color:#555;
 	.box img{max-width:100px;}
 	#mainBanner h2,#mainBanner p{font-size:80%;}
 	#sidebar p{text-align:center;}
+}
+
+/*追加*/
+/*ブロック全体の設定*/
+#new dl {
+	padding: 0px 20px;	/*上下、左右へのブロック内の余白*/
+	margin-bottom: 20px;	/*ブロックの下(外側)に空ける余白*/
+}
+/*日付設定*/
+#new dt {
+	font-weight: bold;	/*太字にする設定。標準がいいならこの行削除。*/
+	float: left;
+	width: 8em;
+}
+/*記事設定*/
+#new dd {
+	padding-left: 8em;
 }
