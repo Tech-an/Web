@@ -111,6 +111,10 @@ border-bottom:2px solid #ebebeb;
 text-align:right;
 }
 
+/*section{
+	border-bottom:2px solid #ebebeb;
+}*/
+
 #mainBanner img{
 max-width:100%;
 height:auto;
